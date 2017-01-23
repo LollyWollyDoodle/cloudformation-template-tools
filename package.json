@@ -1,0 +1,17 @@
+{
+    "name": "@lwd/cloudformation-template-tools",
+    "description": "Helper functions for managing CloudFormation templates during the build process",
+    "version": "0.1.0",
+    "license": "UNLICENSED",
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/LollyWollyDoodle/cloudformation-template-tools.git"
+    },
+    "dependencies": {
+	"aws-sdk": "^2.7.27"
+    },
+    "devDependencies": {
+	"gulp": "^3.9.1",
+	"gulp-eslint": "^3.0.1"
+    }
+}
