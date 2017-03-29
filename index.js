@@ -23,7 +23,7 @@ module.exports = {
 							path: file.base + "/" + file.relative + ".validated"
 						});
 
-						validated.contents = Buffer.from(JSON.stringify(data), "UTF-8");
+						validated.contents = new Buffer(JSON.stringify(data), "UTF-8");
 						cb(null, validated);
 					}
 					else {
