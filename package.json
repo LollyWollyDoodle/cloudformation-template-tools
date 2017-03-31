@@ -1,7 +1,7 @@
 {
   "name": "@lwd/cloudformation-template-tools",
   "description": "Helper functions an gulp plugins for managing CloudFormation templates during the build process",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",

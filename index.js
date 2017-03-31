@@ -27,7 +27,10 @@ module.exports = {
 						cb(null, validated);
 					}
 					else {
-						cb(err);
+					    var e = new PluginError(PLUGIN_NAME, err);
+					    e.templatePath = file.relative;
+					    console.error(e.toString());
+					    cb(e);
 					}
 				});
 			}
